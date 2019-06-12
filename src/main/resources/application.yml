@@ -3,3 +3,9 @@ dm:
     username: JMS Username
     password: somepass
     url: SomeUrl
+---
+spring:
+  profiles: en
+dm:
+  jms:
+    username: JMS Username $$$ IN England
